@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Электронный магазин</title>
+	<link href="C:/css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css" rel="stylesheet">
+	
+	<style>
+	.element {
+    margin: 10px;  /* Внешние отступы */
+    padding: 15px;  /* Внутренние отступы */
+    }
+	.element2 {
+    margin-left: 5px;  /* Отступ слева */
+    margin-right: 5px; /* Отступ справа */
+    }
+	.element3 {
+    margin-left: 135px;  /* Отступ слева */
+    margin-right: 5px; /* Отступ справа */
+    /* или для внутренних отступов: */
+    padding-left: 1px;
+    padding-right: 1px;
+}
+	</style>
+	
+</head>
+<body>
+  <div class="row">
+    <div class="col-2">
+	
+	<div class="d-flex  vh-100">
+	<div class="card-body btn btn-dark text-start">
+		<div>
+	          <img src="C:/css/bootstrap-logo-white.svg" alt="icon" style="width: 15%;" class="text-start; element2">	
+	          <button type="button" class="btn btn-dark text-start">Меню</button>
+	     </div>
+	
+	<hr class="bg-dark text-white text-center py-1">	    
+		
+		<header class="jumbotron jumbotron-fluid text-width text-start py-2 element2">
+		<button type="button" class="btn btn-primary py-2">
+        <i class="bi bi-house-door"></i> Главная		
+        </button>
+		</header>
+		
+		<header class="jumbotron jumbotron-fluid text-width text-start py-2 element2">
+		<button type="button" class="btn btn-dark text-width text-start">
+        <i class="bi bi-speedometer2"></i> Категории		
+        </button>
+		</header>
+	    
+		
+	    <header class="jumbotron jumbotron-fluid text-width text-start py-2 element2">
+		<button type="button" class="btn btn-dark text-width text-start">
+        <i class="bi bi-file-spreadsheet"></i> Заказы		
+        </button>
+		</header>
+		
+	    <header class="jumbotron jumbotron-fluid text-width text-start py-2 element2">
+		<button type="button" class="btn btn-dark text-width text-start">
+        <i class="bi bi-person-circle"></i> Контакты		
+        </button>
+		</header>
+		
+	<span>
+		
+	<hr class="bg-dark text-white py-1"> 
+	
+       <div class="btn-group element2">
+	       <img src="C:\Users\Петр\Pictures\Самоделкин.jpg" class="rounded-circle float-start" style="width: 50px;"alt="Avatar" />
+           <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Пользователь
+           </button>
+              <ul class="dropdown-menu">
+                 <li><a class="dropdown-item" href="#">Профиль</a></li>
+                 <li><a class="dropdown-item" href="#">Выход</a></li>          
+              </ul>
+       </div> 
+    </span>	   
+    </div>	
+	</div>
+	</div>
+	
+    <div class="col-10">
+	  
+	  <div class="row mt-5"><!-- Верхняя часть главной страницы -->
+	        <header class="jumbotron jumbotron-fluid text-black text-center">
+            <h1 class="display-4">Главная</h1>
+            <p class="lead">Вы находитесь на сайте, предназначеном для продажи товаров</p>
+			</header>
+      </div>
+	 
+	  <div class="row mt-5">
+	   <div class="col-4 gx-6">
+	      <header class="jumbotron jumbotron-fluid text-black text-center">
+		  <div class="d-flex justify-content-center">
+		  <div class="card" style="width: 20rem;"><!-- Первая карточка -->
+		     <header class="jumbotron jumbotron-fluid text-black text-center">
+                <h4 class="card-header">Товар 1</h4>
+		     </header>
+            <div class="card-body">
+		       <header class="jumbotron jumbotron-fluid text-black text-center">
+                  <h1 class="card-title">$ 100</h1>
+		       </header>
+            <p class="card-text">10 users included, 2GB storage, Email support, Help center access</p>
+         
+		       <header class="jumbotron jumbotron-fluid text-black text-center">
+                  <button type="button" class="btn btn-outline-primary">Купить</button>
+		       </header>
+            </div>
+          </div>
+		  </div>
+		  
+	   </div>
+		<div class="col-4 gx-5">
+		  <div class="d-flex justify-content-center">
+		    <div class="card" style="width: 20rem; text-center"><!-- Вторая карточка -->
+		        <header class="jumbotron jumbotron-fluid text-black text-center">
+                  <h4 class="card-header">Товар 1</h4>
+		        </header>
+              <div class="card-body">
+		        <header class="jumbotron jumbotron-fluid text-black text-center">
+                  <h1 class="card-title">$ 100</h1>
+		        </header>
+                  <p class="card-text">10 users included, 2GB storage, Email support, Help center access</p>
+         
+		        <header class="jumbotron jumbotron-fluid text-black text-center">
+                  <button type="button" class="btn btn-outline-primary">Купить</button>
+		        </header>
+              </div>
+            </div>
+		  </div>
+		</div>
+		<div class="col-4 gx-5">
+		<div class="d-flex justify-content-center">
+		<div class="card" style="width: 20rem;"><!-- Третья карточка -->
+		 <header class="jumbotron jumbotron-fluid text-black text-center">
+         <h4 class="card-header">Товар 1</h4>
+		 </header>
+         <div class="card-body">
+		 <header class="jumbotron jumbotron-fluid text-black text-center">
+         <h1 class="card-title">$ 100</h1>
+		 </header>
+         <p class="card-text">10 users included, 2GB storage, Email support, Help center access</p>
+         
+		 <header class="jumbotron jumbotron-fluid text-black text-center">
+         <button type="button" class="btn btn-outline-primary">Купить</button>
+		 </header>
+        </div>
+		</div>
+        </div>
+		</div>
+      </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js">
+</script>  
+</body>
+</html>
